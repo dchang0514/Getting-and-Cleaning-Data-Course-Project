@@ -3,13 +3,10 @@
 ## Decription
 This is the course project for the Getting and Cleaning Data Coursera course.
 The project is designed to deliver the following files:
- *  Readme.md - Summary of the course project
- *  run_analysis.R - The R script that is used to clean up the given dataset
- *  tidy.txt - The end result of the cleaning process 
- *  CodeBook.md - Updated Code book to reflect the change of the original dataset 
-
-## Readme.md
-Summary of the course project
+ *  __Readme.md__ - Summary of the course project
+ *  __run_analysis.R__ - The R script that is used to clean up the given dataset
+ *  __tidy.txt__ - The end result of the cleaning process 
+ *  __CodeBook.md__ - Updated Code book to reflect the change of the original dataset 
 
 ## run_analysis.R
 The main functions that are carried out by this script are the following:
