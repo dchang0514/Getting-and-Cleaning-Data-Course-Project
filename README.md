@@ -1,12 +1,15 @@
 # Getting-and-Cleaning-Data-Course-Project
 
 ## Decription
-This is the project for the Getting and Cleaning Data Coursera course.
-The files to be delivered are the following files:
+The course project for the Getting and Cleaning Data Coursera course.
+The deliverables are the following files:
  *  __Readme.md__ 
  *  __run_analysis.R__
  *  __tidy_data.txt__ 
  *  __CodeBook.md__ 
+
+## README.md
+The README file describing the project
 
 ## run_analysis.R
 The main functions provided by this script are the following:
@@ -23,8 +26,8 @@ The main functions provided by this script are the following:
  9. Write resulting dataset to a local text file
 
 ## tidy_data.txt
-The local text file containing the result of the clearning process
+The text file containing the result of the cleaning process
 
 ## CodeBook.md
-The code book to describe the content and format of the __tidy_data.txt__ file
+The code book describing the data and format of the __tidy_data.txt__ file
 
