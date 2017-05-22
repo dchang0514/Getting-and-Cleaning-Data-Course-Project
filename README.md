@@ -3,13 +3,13 @@
 ## Decription
 The course project for the Getting and Cleaning Data Coursera course.
 The deliverables are the following files:
- *  __Readme.md__ 
+ *  __README.md__ 
  *  __run_analysis.R__
  *  __tidy_data.txt__ 
  *  __CodeBook.md__ 
 
 ## README.md
-The README file describing the project
+The readme file describing the course project
 
 ## run_analysis.R
 The main functions provided by this script are the following:
