@@ -1,13 +1,13 @@
 # Code Book
 
-This code book describes the data fields and values of the "tidy_file.txt".
-The data fields in 'tidy_file.txt' consists of the following:
+This code book describes the data fields used in "tidy_file.txt".
+The data fields in 'tidy_file.txt' consist of the following:
  * `Subject` - The identity of the testing subject
  * `Activity` - The type of activity when the feature measurements were conducted
  * `Meaturements` - The measurements of testing result (e.g. mean of values)
 
-## Activity 
-The types of activity consists of the following:
+## Activity Types 
+The types of activity consist of the following:
 * `WALKING` (value `1`): walking during the test
 * `WALKING_UPSTAIRS` (value `2`): walking up a staircase during the test
 * `WALKING_DOWNSTAIRS` (value `3`): walking down a staircase during the test
@@ -15,7 +15,7 @@ The types of activity consists of the following:
 * `STANDING` (value `5`): standing during the test
 * `LAYING` (value `6`): laying down during the test
 
-## Measurements 
+## Measurement Types 
 The types of testing measurements consist of the following:
 * `tBodyAcc-mean()-X`
 * `tBodyAcc-mean()-Y`
