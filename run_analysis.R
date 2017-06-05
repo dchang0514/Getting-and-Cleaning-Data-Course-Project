@@ -116,7 +116,7 @@ colnames(finalData) = colNames;
 # Create a new table, without the activityType column
 noActivityType  = finalData[,names(finalData) != 'activityType'];
 
-# Summarizing the finalDataNoActivityType table to include just the 
+# Summarizing the noActivityType table to include just the 
 # mean of each variable for each activity and each subject
 tidyData = aggregate(noActivityType[,names(noActivityType) != c('activityId','subjectId')],
                      by=list(activityId = noActivityType$activityId,
@@ -126,5 +126,5 @@ tidyData = aggregate(noActivityType[,names(noActivityType) != c('activityId','su
 # Merging the tidyData with activityType to include descriptive acitvity names
 tidyData = merge(tidyData, activityType, by='activityId', all.x=TRUE);
 
-# Export the tidyData set 
+# Export the tidy dataset to a text file
 write.table(tidyData, 'tidy_data.txt', row.names=TRUE, sep='\t');
